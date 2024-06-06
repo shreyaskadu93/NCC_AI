@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ncc-ai"
+version = "0.2.0"
+description = ""
+authors = ["Aniket Khajanchi <aniket.khajanchi@nokia.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+chromadb = "0.4.22"
+llama-cpp-python = "0.2.57"
+flask="3.0.2"
+llama-index-llms-llama-cpp="0.1.3"
+llama-index-core="0.10.20"
+llama-index-embeddings-huggingface="0.1.4"
+llama-index-vector-stores-chroma="0.1.6"
+streamlit="1.32.0"
+pyperclip="1.8.2"
+gunicorn="21.2.0"
+llama-index="0.10.20"
+llama-index-postprocessor-cohere-rerank="0.1.4"
+cohere="5.2.1"
+transformers="4.39.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
